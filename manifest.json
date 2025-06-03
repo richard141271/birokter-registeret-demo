@@ -4,6 +4,8 @@
   "short_name": "Birøkter",
   "start_url": ".",
   "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Demo av BirøkterRegisteret",
   "icons": [
     {
       "src": "icon.png",
