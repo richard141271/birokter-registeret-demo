@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8">
-  <title>Velkommen til BirøkterRegisteret</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="icon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BirøkterRegisteret</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="BirøkterRegisteret">
+  <link rel="apple-touch-icon" href="icon.png" />
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 1rem; background: #f7f7f7; }
-    header { background: #003366; color: white; padding: 1rem; text-align: center; }
-    nav { margin-top: 1rem; }
-    a { display: inline-block; margin: 0.5rem 0; text-decoration: none; color: #003366; background: #ffcc00; padding: 0.75rem 1rem; border-radius: 8px; }
-    footer { margin-top: 2rem; font-size: 0.8rem; color: #888; text-align: center; }
+    body { font-family: sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #003366; color: white; padding: 1em; text-align: center; }
+    nav { display: flex; flex-direction: column; gap: 10px; padding: 1em; }
+    nav a { text-decoration: none; padding: 1em; background: #ffcc00; color: black; border-radius: 8px; text-align: center; }
+    footer { text-align: center; padding: 1em; font-size: 0.8em; color: #666; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Velkommen til BirøkterRegisteret</h1>
+    <img src="icon.png" alt="Appikon" width="64" height="64" style="border-radius: 12px;"><br>
+    <h1>BirøkterRegisteret</h1>
   </header>
   <nav>
-    <a href="index.html">Tilbake til Hjem</a>
+    <a href="#">🐝 Mine bigårder</a>
+    <a href="#">📍 Registrer ny bigård</a>
+    <a href="#">🏠 Mine bikuber</a>
+    <a href="#">➕ Registrer ny bikube</a>
+    <a href="#">⚙️ Innstillinger</a>
   </nav>
-  <footer>BirøkterRegisteret – v1.6 DEMO</footer>
+  <footer>Versjon 1.4 – Demo</footer>
 </body>
 </html>
