@@ -1,22 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BirøkterRegisteret v1.8</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BirøkterRegisteret</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="birokter-icon-512x512.png">
+  <link rel="apple-touch-icon" href="birokter-icon-512x512.png">
+  <style>
+    body { font-family: sans-serif; margin: 0; text-align: center; }
+    header { padding: 1em; background-color: #f9f9f9; }
+    img.logo { height: 64px; vertical-align: middle; }
+    h1 { display: inline-block; margin-left: 1em; vertical-align: middle; }
+    footer { position: fixed; bottom: 0; width: 100%; font-size: 0.9em; color: #888; padding: 0.5em 0; background: #eee; }
+    nav a { display: block; padding: 1em; color: #333; text-decoration: none; border-bottom: 1px solid #ccc; }
+  </style>
 </head>
 <body>
-  <header><h1>BirøkterRegisteret v1.8</h1></header>
+  <header>
+    <img src="birokter-icon-512x512.png" class="logo" alt="Logo">
+    <h1>BirøkterRegisteret</h1>
+  </header>
   <nav>
-    <a href="pages/mine-bigarder.html">Mine bigårder</a>
-    <a href="pages/registrer-bigard.html">Registrer bigård</a>
-    <a href="pages/mine-bikuber.html">Mine bikuber</a>
-    <a href="pages/registrer-bikube.html">Registrer bikube</a>
-    <a href="pages/innstillinger.html">Innstillinger</a>
+    <a href="bigarder.html">Mine bigårder</a>
+    <a href="ny-bigard.html">Registrer ny bigård</a>
+    <a href="bikuber.html">Mine bikuber</a>
+    <a href="ny-bikube.html">Registrer ny bikube</a>
+    <a href="innstillinger.html">Innstillinger</a>
   </nav>
-  <footer>v1.8 DEMO</footer>
+  <footer>v1.9 – BirøkterRegisteret</footer>
 </body>
 </html>
