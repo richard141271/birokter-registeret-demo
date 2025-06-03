@@ -1,1 +1,0 @@
-# birokter-registeret-demo

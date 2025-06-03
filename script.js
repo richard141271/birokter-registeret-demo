@@ -1,1 +1,1 @@
-console.log('v1.7 loaded');
+console.log('Birøkter v1.7 is loaded');

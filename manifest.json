@@ -1,1 +1,14 @@
-{ "name": "Birøkter", "short_name": "Birøkter", "start_url": ".", "display": "standalone" }
+
+{
+  "name": "BirøkterRegisteret",
+  "short_name": "Birøkter",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
